@@ -63,16 +63,24 @@
 ### 克隆仓库到本地
 - git clone 仓库地址
 
+---------------------------------------------------------------------
 ### 创建与合并分支
 - git checkout -b 分支名字    创建分支并且切换到创建的分支上
+
 ##### git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
 - git branch [dev]   创建分支
 - git checkout [dev]  切换到[dev]分支上
+
 ##### 查看当前分支
 - git branch    当前分支前面会标一个*号
+
 #### 当前分支上提交文件
 - git add 文件名/-A/. 
 - git commit -m "版本信息"
+- git push origin [dev] 推送到远程仓库[dev]分支上
+
+#### 换回[某个]分支
+- git checkout [master] 切换到[master]分支上
 
 
 
