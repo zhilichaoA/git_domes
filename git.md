@@ -89,6 +89,10 @@
 - git branch -d [某一个分支]  删除某一个分支 (这能删除本地分支)
 - git branch    查看分支,当前分支前面会标一个*号
 
+### 多人协同开发
+- git pull 出错后,原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接
+- git branch --set-upstream dev origin/dev 
+
 
 ### 解决冲突
 - 冲突是在分支上工作完成了,后没有合并,切换到主分支上继续工作,就就会有冲突了,解决办法删除<<<<<<< 具体自己看 >>>>>>>
@@ -104,7 +108,8 @@
 - git stash list  查看隐藏的工作区
 - git stash pop 恢复隐藏的工作区(恢复的同时把stash内容也删了)
 
--
+### 强行删除分支
+- git branch -D [分支名字] 详情阅读强行删除分支.md
 
 
 
