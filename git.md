@@ -98,6 +98,15 @@
 - git log --graph --pretty=oneline --abbrev-commit 查看合并历史信息
 
 
+### bug分支
+- git stash隐藏工作(把当前工作现场“储藏”起来，等以后恢复现场后继续工作)
+- git stash 查看工作区的状态
+- git stash list  查看隐藏的工作区
+- git stash pop 恢复隐藏的工作区(恢复的同时把stash内容也删了)
+
+-
+
+
 
 
 
