@@ -91,7 +91,7 @@
 
 ### 多人协同开发
 - git pull 出错后,原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接
-- git branch --set-upstream dev origin/dev 
+- git branch --set-upstream dev origin/[远程的分支名字]
 
 
 ### 解决冲突
