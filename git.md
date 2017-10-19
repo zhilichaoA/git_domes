@@ -72,17 +72,22 @@
 - git checkout [dev]  切换到[dev]分支上
 
 ##### 查看当前分支
-- git branch    当前分支前面会标一个*号
+- git branch    查看分支,当前分支前面会标一个*号
 
-#### 当前分支上提交文件
+##### 当前分支上提交文件
 - git add 文件名/-A/. 
 - git commit -m "版本信息"
-- git push origin [dev] 推送到远程仓库[dev]分支上
+- git push origin [dev] 推送到远程仓库[dev]分支上(如果不用这个命令,就是本地分支)
 
-#### 换回[某个]分支
+##### 回到[某个]分支
 - git checkout [master] 切换到[master]分支上
 
+##### 合并[某一个分支]到master主分支上
+- git merge [某一个分支]   合并到主分支(必须在主分支下合并);
 
+##### 合并完成后删除某一个分支
+- git branch -d [某一个分支]  删除某一个分支
+- git branch    查看分支,当前分支前面会标一个*号
 
 
 
