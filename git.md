@@ -41,34 +41,24 @@
 - git diff HEAD -- 文件名     查看工作区和版本库里面最新版本的区别
 
 
-
 ### 撤销修改
 - git checkout -- 文件名   意思就是，把文件在工作区的修改全部撤销,总之，就是让这个文件回到最近一次
-	- git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
+	- git checkout -- file命令中的'--'很重要，没有'--'，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
 
 
-####
+### 删除文件
+- 确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit
+	- git rm 文件名
+	- git commit 文件名
+- git checkout -- 文件名  
+	- 另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 添加远程仓库
+- *把一个已有的本地仓库与之关联*
+- git remote add origin https://github.com/zhilichaoA/git_domes.git  关联远程仓储
+- git push -u origin master 第一次送到远程仓库master分支上
+- git push origin master 第二次推送开始使用
 
 
 
