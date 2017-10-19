@@ -104,7 +104,8 @@
 - git stash list  查看隐藏的工作区
 - git stash pop 恢复隐藏的工作区(恢复的同时把stash内容也删了)
 
--
+### 强行删除分支
+- git branch -D [分支名字] 详情阅读强行删除分支.md
 
 
 
